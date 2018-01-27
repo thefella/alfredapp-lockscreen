@@ -1,6 +1,6 @@
 # Lock Screen
 
-Alfred workflow to lock your Mac’s screen.
+[Alfred](https://www.alfredapp.com) workflow to lock your Mac’s screen.
 
 ### Examples
 
