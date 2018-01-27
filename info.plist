@@ -25,7 +25,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>2FCA8827-5F09-40EA-BCEE-55891DC4CD72</string>
+				<string>BF4BD784-B79B-4F74-AB1B-B7132A715E22</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -117,12 +117,12 @@
 				<key>keycode</key>
 				<integer>-1</integer>
 				<key>keymod</key>
-				<integer>1572864</integer>
+				<integer>1310720</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.dispatchkeycombo</string>
 			<key>uid</key>
-			<string>2FCA8827-5F09-40EA-BCEE-55891DC4CD72</string>
+			<string>BF4BD784-B79B-4F74-AB1B-B7132A715E22</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -304,20 +304,9 @@ The maximum delay is 60 seconds.</string>
 			<key>note</key>
 			<string>If locking is set for longer than 3 seconds, you'll get a notification telling you this.</string>
 			<key>xpos</key>
-			<integer>590</integer>
+			<integer>600</integer>
 			<key>ypos</key>
-			<integer>380</integer>
-		</dict>
-		<key>2FCA8827-5F09-40EA-BCEE-55891DC4CD72</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>1</integer>
-			<key>note</key>
-			<string>Uses standard OSX key combination to lock the screen.</string>
-			<key>xpos</key>
-			<integer>770</integer>
-			<key>ypos</key>
-			<integer>200</integer>
+			<integer>330</integer>
 		</dict>
 		<key>41F253EF-0B7C-4C74-9EF4-E1FB95D5058D</key>
 		<dict>
@@ -326,18 +315,18 @@ The maximum delay is 60 seconds.</string>
 			<key>note</key>
 			<string>Delays the locking by x seconds.</string>
 			<key>xpos</key>
-			<integer>590</integer>
+			<integer>600</integer>
 			<key>ypos</key>
-			<integer>230</integer>
+			<integer>180</integer>
 		</dict>
 		<key>93284B35-AB4E-4BE8-A8D8-ED1A0135E6FA</key>
 		<dict>
 			<key>note</key>
 			<string>Notification telling you how long until your Mac locks.</string>
 			<key>xpos</key>
-			<integer>770</integer>
+			<integer>780</integer>
 			<key>ypos</key>
-			<integer>380</integer>
+			<integer>330</integer>
 		</dict>
 		<key>B6F53EB4-B7CB-433B-9557-2CB5252CE063</key>
 		<dict>
@@ -346,9 +335,9 @@ The maximum delay is 60 seconds.</string>
 			<key>note</key>
 			<string>Checks if query is numberic and less than 60 seconds. If not, it will return 5 seconds.</string>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>400</integer>
 			<key>ypos</key>
-			<integer>290</integer>
+			<integer>240</integer>
 		</dict>
 		<key>BB8660B5-9FAB-4FFF-8AD7-3BF6A13677E8</key>
 		<dict>
@@ -357,18 +346,29 @@ The maximum delay is 60 seconds.</string>
 			<key>note</key>
 			<string>Trim whitespace.</string>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>320</integer>
+			<integer>270</integer>
+		</dict>
+		<key>BF4BD784-B79B-4F74-AB1B-B7132A715E22</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>note</key>
+			<string>Uses standard OSX key combination to lock the screen.</string>
+			<key>xpos</key>
+			<integer>780</integer>
+			<key>ypos</key>
+			<integer>150</integer>
 		</dict>
 		<key>D7001B89-93FE-4EF9-AC54-8659D185B1A4</key>
 		<dict>
 			<key>note</key>
 			<string>Type "lock" to immediately lock your Mac, or type "lock [number]" to lock your Mac after x seconds (max 60).</string>
 			<key>xpos</key>
-			<integer>20</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>290</integer>
+			<integer>240</integer>
 		</dict>
 		<key>F89B09D7-71F9-4D3B-A271-6A07E2531F08</key>
 		<dict>
@@ -377,9 +377,9 @@ The maximum delay is 60 seconds.</string>
 			<key>note</key>
 			<string>Changes empty input to 0 seconds</string>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>310</integer>
 			<key>ypos</key>
-			<integer>320</integer>
+			<integer>270</integer>
 		</dict>
 	</dict>
 	<key>version</key>
